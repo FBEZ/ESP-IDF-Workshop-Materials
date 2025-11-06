@@ -8,7 +8,7 @@ We will use the open-source IDE [VS Code](https://code.visualstudio.com/) togeth
 
 If you don’t have an Espressif EVK board, you can still follow every step of this guide except the last one.
 
-For the final step, you’ll need an EVK based on any Espressif SoC. During the workshop, you will receive an `ESP32-C3`-based board: the [`ESP32-C3-DevKit-RUST-1`](https://github.com/esp-rs/esp-rust-board?tab=readme-ov-file#rust-esp-board).
+For the final step, you’ll need an EVK based on any Espressif SoC. During the workshop, you will receive an `ESP32-C3`-based board.
 
 > [!NOTE]
 > The term *ESP-IDF* is used both for the actual [toolchain](https://github.com/espressif/esp-idf?tab=readme-ov-file#espressif-iot-development-framework) and for the [VS Code extension](https://github.com/espressif/vscode-esp-idf-extension?tab=readme-ov-file#esp-idf-extension-for-vs-code).
@@ -25,21 +25,19 @@ This guide is divided into 5 parts:
 4. Building your first project
 5. Flashing the module
 
----
 
 ## Installing VS Code and prerequisites
 
 This step depends on your operating system. Follow the appropriate guide below:
 
-🐧 Linux: [Installing VS Code and prerequisites](Installation_linux.md)
-🪟 Windows: [Installing VS Code](Installation_windows.md)
-🍎 macOS: [Installing VS Code and prerequisites](Installation_macos.md)
+* 🐧 Linux: [Installing VS Code and prerequisites](Installation_linux.md)
+* 🪟 Windows: [Installing VS Code](Installation_windows.md)
+* 🍎 macOS: [Installing VS Code and prerequisites](Installation_macos.md)
 
----
 
 ## Installing the ESP-IDF extension for VS Code
 
-Once all prerequisites are installed, we can add the ESP-IDF extension to VS Code. Through the *extension*, we will then install and configure the *ESP-IDF toolchain*.
+Once all prerequisites are installed, we can add the ESP-IDF extension to VS Code. Through the ESP-IDF *extension*, we will then install and configure the *ESP-IDF toolchain*.
 
 * Open VS Code
 * Click the **Extensions** icon (four squares) on the left
@@ -50,7 +48,6 @@ Once all prerequisites are installed, we can add the ESP-IDF extension to VS Cod
 
   * If prompted, click **Accept and Install**
 
----
 
 ## Configuring the ESP-IDF toolchain
 
@@ -83,7 +80,6 @@ After installing the ESP-IDF extension, run the configuration procedure that aut
 * When complete, you will see the confirmation screen
   ![](../../assets/setup/11_allright.webp)
 
----
 
 ## Building your first project
 
@@ -138,7 +134,6 @@ If you see the summary screen, the toolchain and extension are correctly install
 
 If you have an EVK available, proceed to the next section to verify USB connectivity.
 
----
 
 ## Flashing the module
 
@@ -202,9 +197,8 @@ To flash the module:
 * You should see the boot messages and the “hello world!” line
   ![](../../assets/setup/26_terminal.webp)
 
-If you see the message in the terminal, your setup is fully operational and you’re ready for the workshop—and for developing your own ESP-IDF projects.
+If you see the message in the terminal, your setup is fully operational and you’re ready for the workshop and for developing your own ESP-IDF projects.
 
----
 
 ## Conclusion
 

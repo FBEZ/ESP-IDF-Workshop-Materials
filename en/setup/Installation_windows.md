@@ -1,4 +1,3 @@
-
 # 🪟 Installing VS Code and Prerequisites – Windows
 
 ## Installing VS Code

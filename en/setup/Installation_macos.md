@@ -1,4 +1,3 @@
-Here is the English translation, with a clear and friendly technical-writing tone:
 # 🍎 Installing VS Code and Prerequisites – macOS
 
 ## Installing VS Code
@@ -86,7 +85,6 @@ If you encountered errors during installation, refer to the [Troubleshooting](#t
 
 > Continue with the [next step](README.md#installazione-dellestensione-per-vs-code).
 
----
 
 ## Troubleshooting
 
